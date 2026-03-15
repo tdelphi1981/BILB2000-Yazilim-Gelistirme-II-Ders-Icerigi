@@ -1,4 +1,5 @@
 .DS_Store
 **/.DS_Store
+**/build/
 quizzes/*_CevapAnahtari.pdf
 labs/*_Cevap.pdf
