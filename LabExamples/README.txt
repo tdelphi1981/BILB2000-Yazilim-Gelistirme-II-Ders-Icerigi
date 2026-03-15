@@ -100,6 +100,20 @@ LabExamples/
       CMakeLists.txt
       main.cpp  - QString ve Qt Kapsayıcıları
 
+  Lab05_Qt_Pencere_ve_Duzen_Yonetimi/
+    calisma1/                <- Qt projesi (CMake)
+      CMakeLists.txt
+      main.cpp  - Düzen Yöneticileri (VBox/HBox/Grid)
+    calisma2/
+      CMakeLists.txt
+      main.cpp  - QMainWindow ve Menüler
+    calisma3/
+      CMakeLists.txt
+      main.cpp  - Diyalog Pencereleri
+    calisma4/
+      CMakeLists.txt
+      main.cpp  - OBYS Ana Pencere
+
 ------------------------------------------------------------
   TESLİM KONTROL LİSTESİ
 ------------------------------------------------------------
