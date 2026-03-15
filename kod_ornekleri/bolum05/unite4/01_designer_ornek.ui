@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KayitFormu</class>
+ <widget class="QWidget" name="KayitFormu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>OBYS - Kayıt Formu (Designer)</string>
+  </property>
+  <layout class="QVBoxLayout" name="anaDuzen">
+   <property name="spacing">
+    <number>12</number>
+   </property>
+   <property name="margin">
+    <number>20</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="baslikEtiket">
+     <property name="text">
+      <string>Öğrenci Kayıt Formu</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="styleSheet">
+      <string>font-size: 18px; font-weight: bold; color: #2c3e50; padding: 8px; background-color: #eaf2f8; border-radius: 4px;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="isimEtiket">
+     <property name="text">
+      <string>Ad Soyad:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="isimGiris">
+     <property name="placeholderText">
+      <string>Öğrenci adını giriniz</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="durumEtiket">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="kaydetButon">
+     <property name="text">
+      <string>Kaydet</string>
+     </property>
+     <property name="styleSheet">
+      <string>background-color: #27ae60; color: white; padding: 10px; font-size: 14px; border-radius: 4px;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

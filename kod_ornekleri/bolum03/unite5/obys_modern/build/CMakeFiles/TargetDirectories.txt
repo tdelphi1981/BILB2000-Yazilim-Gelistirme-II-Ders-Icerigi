@@ -1,0 +1,4 @@
+/Volumes/Work/Work/book/books/yg2/kod_ornekleri/bolum03/unite5/obys_modern/build/CMakeFiles/Uygulama3.dir
+/Volumes/Work/Work/book/books/yg2/kod_ornekleri/bolum03/unite5/obys_modern/build/CMakeFiles/TestUygulama3.dir
+/Volumes/Work/Work/book/books/yg2/kod_ornekleri/bolum03/unite5/obys_modern/build/CMakeFiles/edit_cache.dir
+/Volumes/Work/Work/book/books/yg2/kod_ornekleri/bolum03/unite5/obys_modern/build/CMakeFiles/rebuild_cache.dir

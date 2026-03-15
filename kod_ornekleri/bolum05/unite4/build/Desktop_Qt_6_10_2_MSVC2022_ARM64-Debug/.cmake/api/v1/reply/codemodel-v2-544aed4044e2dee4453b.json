@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bolum05_unite4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01_designer_ornek::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_designer_ornek-Debug-0cb2fc9a7192b282721a.json",
+					"name" : "01_designer_ornek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_designer_ornek_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_designer_ornek_autogen-Debug-603303e782e7d63d2042.json",
+					"name" : "01_designer_ornek_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01_designer_ornek_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_designer_ornek_autogen_timestamp_deps-Debug-bffe43db3637155577b9.json",
+					"name" : "01_designer_ornek_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_obys_ana_pencere::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_obys_ana_pencere-Debug-7e85ec01d260b9778157.json",
+					"name" : "02_obys_ana_pencere",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_obys_ana_pencere_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_obys_ana_pencere_autogen-Debug-d82faf76b25d31aba563.json",
+					"name" : "02_obys_ana_pencere_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_obys_ana_pencere_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_obys_ana_pencere_autogen_timestamp_deps-Debug-5b66ad18cfbbf1eb3829.json",
+					"name" : "02_obys_ana_pencere_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "Z:/kod_ornekleri/bolum05/unite4/build/Desktop_Qt_6_10_2_MSVC2022_ARM64-Debug",
+		"source" : "Z:/kod_ornekleri/bolum05/unite4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
