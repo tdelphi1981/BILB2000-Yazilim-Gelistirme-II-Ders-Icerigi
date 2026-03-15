@@ -1,6 +1,0 @@
-set(__QT_DEPLOY_TARGET_01_designer_ornek_FILE Z:/kod_ornekleri/bolum05/unite4/build/Desktop_Qt_6_10_2_MSVC2022_ARM64-Debug/01_designer_ornek.exe)
-set(__QT_DEPLOY_TARGET_01_designer_ornek_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_01_designer_ornek_RUNTIME_DLLS C:/Qt/6.10.2/msvc2022_arm64/bin/Qt6Widgetsd.dll;C:/Qt/6.10.2/msvc2022_arm64/bin/Qt6Guid.dll;C:/Qt/6.10.2/msvc2022_arm64/bin/Qt6Cored.dll)
-set(__QT_DEPLOY_TARGET_02_obys_ana_pencere_FILE Z:/kod_ornekleri/bolum05/unite4/build/Desktop_Qt_6_10_2_MSVC2022_ARM64-Debug/02_obys_ana_pencere.exe)
-set(__QT_DEPLOY_TARGET_02_obys_ana_pencere_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_02_obys_ana_pencere_RUNTIME_DLLS C:/Qt/6.10.2/msvc2022_arm64/bin/Qt6Widgetsd.dll;C:/Qt/6.10.2/msvc2022_arm64/bin/Qt6Guid.dll;C:/Qt/6.10.2/msvc2022_arm64/bin/Qt6Cored.dll)

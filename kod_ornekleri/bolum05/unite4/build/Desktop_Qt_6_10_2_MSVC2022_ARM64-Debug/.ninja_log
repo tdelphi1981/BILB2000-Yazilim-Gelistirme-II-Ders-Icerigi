@@ -1,8 +1,0 @@
-# ninja log v6
-13	752	7952900344477303	02_obys_ana_pencere_autogen/timestamp	795aa76b1f618a8c
-13	752	7952900344477303	02_obys_ana_pencere_autogen/mocs_compilation.cpp	795aa76b1f618a8c
-13	752	7952900344477303	Z:/kod_ornekleri/bolum05/unite4/build/Desktop_Qt_6_10_2_MSVC2022_ARM64-Debug/02_obys_ana_pencere_autogen/timestamp	795aa76b1f618a8c
-13	752	7952900344477303	Z:/kod_ornekleri/bolum05/unite4/build/Desktop_Qt_6_10_2_MSVC2022_ARM64-Debug/02_obys_ana_pencere_autogen/mocs_compilation.cpp	795aa76b1f618a8c
-786	3279	7952900345395290	CMakeFiles/02_obys_ana_pencere.dir/02_obys_ana_pencere_autogen/mocs_compilation.cpp.obj	1a05ec2e10b954c0
-793	3352	7952900345456661	CMakeFiles/02_obys_ana_pencere.dir/02_obys_ana_pencere.cpp.obj	26b779ff9cf6792b
-3355	3876	7952900371075433	02_obys_ana_pencere.exe	2da42d98d811425d
