@@ -1,0 +1,6 @@
+<!-- TODO: Kaynak dosyalarını tanımlayın -->
+<RCC>
+    <qresource prefix="/icons">
+        <!-- TODO: ikon dosyalarını ekleyin -->
+    </qresource>
+</RCC>
