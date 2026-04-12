@@ -1,0 +1,24 @@
+/**
+ * version.h.in -- OBYS surum bilgisi sablonu
+ *
+ * Bolum 8 - Unite 5 - Kurulum Hazirlama ve Dagitilabilir Paket
+ *
+ * Bu dosya CMake configure_file komutu ile build dizininde
+ * version.h olarak uretilir. @PROJECT_VERSION_*@ makrolari
+ * CMakeLists.txt icindeki project(... VERSION X.Y.Z ...) cagrisi
+ * tarafindan otomatik olarak doldurulur.
+ */
+
+#ifndef OBYS_VERSION_H
+#define OBYS_VERSION_H
+
+#define OBYS_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#define OBYS_VERSION_MINOR @PROJECT_VERSION_MINOR@
+#define OBYS_VERSION_PATCH @PROJECT_VERSION_PATCH@
+#define OBYS_VERSION_STRING "@PROJECT_VERSION@"
+#define OBYS_VERSION_NAME "@PROJECT_NAME@"
+
+#define OBYS_BUILD_DATE __DATE__
+#define OBYS_BUILD_TIME __TIME__
+
+#endif // OBYS_VERSION_H

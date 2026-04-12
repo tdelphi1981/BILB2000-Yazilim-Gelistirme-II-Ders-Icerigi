@@ -1,0 +1,42 @@
+<!DOCTYPE RCC>
+<!--
+    obys.qrc -- OBYS Lab08 Qt Resource dosyasi
+
+    Lab 08 - OBYS GUI Tamamlama
+
+    Tema QSS dosyalari ":/themes/light.qss" ve ":/themes/dark.qss"
+    aliaslari ile uygulama icinde QFile uzerinden okunur.
+
+    Ikonlar: Lucide Icons (ISC lisans) - https://lucide.dev
+-->
+<RCC>
+    <qresource prefix="/">
+        <!-- Temalar -->
+        <file alias="themes/light.qss">themes/light.qss</file>
+        <file alias="themes/dark.qss">themes/dark.qss</file>
+
+        <!-- Dosya menu ikonlari -->
+        <file alias="icons/yeni.svg">icons/yeni.svg</file>
+        <file alias="icons/ac.svg">icons/ac.svg</file>
+        <file alias="icons/kaydet.svg">icons/kaydet.svg</file>
+        <file alias="icons/farkli_kaydet.svg">icons/farkli_kaydet.svg</file>
+        <file alias="icons/disa_aktar.svg">icons/disa_aktar.svg</file>
+        <file alias="icons/yazdir.svg">icons/yazdir.svg</file>
+        <file alias="icons/toplu_rapor.svg">icons/toplu_rapor.svg</file>
+        <file alias="icons/son_acilanlar.svg">icons/son_acilanlar.svg</file>
+        <file alias="icons/cikis.svg">icons/cikis.svg</file>
+
+        <!-- Duzen menu ikonlari -->
+        <file alias="icons/not_ekle.svg">icons/not_ekle.svg</file>
+
+        <!-- Gorunum menu ikonlari -->
+        <file alias="icons/aydinlik_tema.svg">icons/aydinlik_tema.svg</file>
+        <file alias="icons/karanlik_tema.svg">icons/karanlik_tema.svg</file>
+
+        <!-- Yardim menu ikonlari -->
+        <file alias="icons/hakkinda.svg">icons/hakkinda.svg</file>
+
+        <!-- Uygulama ikonu -->
+        <file alias="icons/obys_app.svg">icons/obys_app.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AyarlarDialog</class>
+ <widget class="QDialog" name="AyarlarDialog">
+  <property name="windowTitle">
+   <string>Ayarlar</string>
+  </property>
+  <property name="geometry">
+   <rect><x>0</x><y>0</y>
+         <width>400</width><height>300</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="anaLayout">
+   <item>
+    <widget class="QGroupBox" name="temaGroup">
+     <property name="title">
+      <string>Tema</string>
+     </property>
+     <layout class="QVBoxLayout">
+      <item>
+       <widget class="QRadioButton"
+               name="aydinlikRadio">
+        <property name="text">
+         <string>Aydinlik Tema</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton"
+               name="karanlikRadio">
+        <property name="text">
+         <string>Karanlik Tema</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox"
+            name="kayitGroup">
+     <property name="title">
+      <string>Dosya Ayarlari</string>
+     </property>
+     <layout class="QFormLayout">
+      <item row="0" column="0">
+       <widget class="QLabel">
+        <property name="text">
+         <string>Otomatik Kaydetme (dk):</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QSpinBox"
+               name="otomatikKaydetSpin">
+        <property name="minimum">
+         <number>0</number></property>
+        <property name="maximum">
+         <number>60</number></property>
+        <property name="value">
+         <number>5</number></property>
+        <property name="specialValueText">
+         <string>Kapali</string></property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel">
+        <property name="text">
+         <string>Son Acilanlar Sayisi:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QSpinBox"
+               name="sonAcilanSayiSpin">
+        <property name="minimum">
+         <number>1</number></property>
+        <property name="maximum">
+         <number>20</number></property>
+        <property name="value">
+         <number>5</number></property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox"
+            name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Ok
+           |QDialogButtonBox::Cancel</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>

@@ -1,0 +1,87 @@
+/*
+ * light.qss -- OBYS v4 Aydinlik Tema
+ *
+ * Bolum 8 - Qt ile OBYS GUI Tamamlama
+ * Unite 4 - OBYS GUI Mini Proje Tamamlama
+ *
+ * Not: QSS dosyalari ASCII ile yazilir; Turkce karakterler
+ * parser'da beklenmedik davranislara yol acabilir.
+ */
+
+QMainWindow {
+    background-color: #f7f7f7;
+}
+
+QMenuBar {
+    background-color: #ffffff;
+    color: #222222;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+QMenuBar::item:selected {
+    background-color: #e6f0fa;
+}
+
+QMenu {
+    background-color: #ffffff;
+    color: #222222;
+    border: 1px solid #cccccc;
+}
+
+QMenu::item:selected {
+    background-color: #e6f0fa;
+}
+
+QPushButton {
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    padding: 6px 14px;
+    color: #222222;
+}
+
+QPushButton:hover {
+    background-color: #e6f0fa;
+    border-color: #4a90e2;
+}
+
+QPushButton:pressed {
+    background-color: #cfe0f5;
+}
+
+QTableView {
+    background-color: #ffffff;
+    alternate-background-color: #f2f6fb;
+    selection-background-color: #4a90e2;
+    selection-color: #ffffff;
+    gridline-color: #dddddd;
+}
+
+QHeaderView::section {
+    background-color: #eeeeee;
+    color: #222222;
+    padding: 4px;
+    border: 1px solid #cccccc;
+}
+
+QTabWidget::pane {
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+
+QTabBar::tab {
+    background: #eeeeee;
+    color: #222222;
+    padding: 6px 14px;
+    border: 1px solid #cccccc;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+QStatusBar {
+    background-color: #eeeeee;
+    color: #555555;
+}

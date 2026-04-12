@@ -1,0 +1,46 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 21,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "Debug Build",
+            "description": "Gelistirme icin hata ayiklama bilgili derleme",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/debug",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+                "CMAKE_INTERPROCEDURAL_OPTIMIZATION": "OFF"
+            }
+        },
+        {
+            "name": "release",
+            "displayName": "Release Build",
+            "description": "Son kullaniciya dagitilacak optimizasyonlu derleme",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/release",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+                "CMAKE_INTERPROCEDURAL_OPTIMIZATION": "ON"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "debug",
+            "configurePreset": "debug",
+            "jobs": 8
+        },
+        {
+            "name": "release",
+            "configurePreset": "release",
+            "jobs": 8
+        }
+    ]
+}
